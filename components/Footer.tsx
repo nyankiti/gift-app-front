@@ -11,9 +11,7 @@ const Footer = () => {
           <ul className="py-4 sm:text-s pt-4 text-gray-400">
             {headerNavLinks.map((link) => (
               <li key={link.title} className="pb-1">
-                <Link href={link.href} className="">
-                  {link.title}
-                </Link>
+                <Link href={link.href}>{link.title}</Link>
               </li>
             ))}
           </ul>
@@ -23,16 +21,16 @@ const Footer = () => {
           <h3 className="text-l sm:font-bold text-gray-100">Find Us</h3>
           <ul className="py-4 sm:text-s pt-4 text-gray-400">
             <li className="pb-1">
-              <a href="/">What we do</a>
+              <Link href="/">What we do</Link>
             </li>
             <li className="pb-1">
-              <a href="/">Address</a>
+              <Link href="/">Address</Link>
             </li>
             <li className="pb-1">
-              <a href="/">Phone</a>
+              <Link href="/">Phone</Link>
             </li>
             <li className="pb-1">
-              <a href="/">Contact</a>
+              <Link href="/">Contact</Link>
             </li>
           </ul>
         </div>

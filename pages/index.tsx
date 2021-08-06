@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+/* components */
+import Link from '../components/Link'
 
 const Home = () => {
   return (
@@ -16,23 +18,19 @@ const Home = () => {
             <h1 className="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
               Gift Inovvation 合同会社
             </h1>
-            <a
+            <Link
               href="/blog"
               className="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase"
             >
               Read more
-            </a>
+            </Link>
           </div>
         </div>
       </div>
 
       <div className="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-grat-200">
         <div>
-          <img
-            src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/seiproject/20200714/20200714214745.jpg"
-            width="700"
-            alt=""
-          />
+          <Image src="/images/gift_wire.jpg" width="700" height="400" alt="" />
         </div>
         <div className="m-auto sm:m-auto text-left w-4/5 block">
           <h2 className="text-3xl font-extrabold text-gray-600">
@@ -46,12 +44,12 @@ const Home = () => {
             magnam vero nostrum! Perferendis eos molestias porrp vero. Vel
             alias.
           </p>
-          <a
+          <Link
             href="/blog"
             className="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl"
           >
             Find Out More
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -63,16 +61,16 @@ const Home = () => {
         <div className="flex pt-10 text-gray-100 bg-gray-400">
           <div className="block w-4/5 pt-4 pb-16 m-auto sm:m-auto">
             <h2 className="pb-16 text-5xl font-bold text-gray-700"></h2>
-            <a
+            <Link
               href="blog?page=1"
               className="px-5 py-3 text-xs font-extrabold uppercase bg-transparent border-2 border-gray-100 rounded-3xl"
             >
               Find Out More
-            </a>
+            </Link>
           </div>
         </div>
         <div>
-          <img src="{{ $post['imageUrl'] }}" width="700" alt="" />
+          <Image src="/images/gift_wire.jpg" width="700" height="400" alt="" />
         </div>
       </div>
     </div>

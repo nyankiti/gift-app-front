@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 interface Props {
   href: string
-  className: string
+  className?: string
   onClick?: any
 }
 
