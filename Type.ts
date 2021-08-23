@@ -74,3 +74,28 @@ export type Tags = string[]
 export type Count = {
   [key in string]: number
 }
+
+export type RadioFeeds = {
+  content: string
+  contentSnippet: string
+  creator: string
+  'dc:creator': string
+  enclosure: {
+    url: string
+    length: string
+    type: string
+  }
+  guid: string
+  isoDate: string
+  itunes: {
+    summary: string
+    explicit: string
+    duration: string
+    image: string
+    episode: string
+    season: string
+  }
+  link: string
+  pubDate: string
+  title: string
+}

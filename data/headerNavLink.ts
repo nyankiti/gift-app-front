@@ -8,8 +8,9 @@ type HeaderNavLinks = NavLink[]
 const headerNavLinks: HeaderNavLinks = [
   { href: '/', title: 'Home' },
   { href: '/blog', title: 'Blog' },
-  { href: '/login', title: 'Login' },
-  { href: '/register', title: 'Register' },
+  { href: '/radio', title: 'Radio' },
+  // { href: '/login', title: 'Login' },
+  // { href: '/register', title: 'Register' },
 ]
 
 export default headerNavLinks

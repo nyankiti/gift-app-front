@@ -10,3 +10,139 @@
   background-size: cover;
   height: 600px;
 }
+
+.css-1qygjso {
+  -webkit-box-pack: justify;
+}
+
+.css-e41cq9 {
+  gap: 16px;
+  grid-template-columns: 1fr 64px 64px 64px 96px 56px 72px;
+  grid-template-areas: 'name duration playCount adCount date status actions';
+  border-bottom: 2px solid rgb(235, 236, 237);
+}
+
+.css-tqeezv {
+  font-size: 1.4rem;
+  place-self: center start;
+  -webkit-box-align: center;
+  position: relative;
+  right: -8px;
+  left: -8px;
+  grid-area: name / name / name / name;
+}
+
+.css-1ldkqm3 {
+  font-size: 1.4rem;
+  -webkit-box-align: center;
+  color: rgb(41, 47, 54);
+  position: relative;
+  right: -8px;
+  grid-area: duration / duration / duration / duration;
+}
+
+.css-1h6ttj8 {
+  font-size: 1.4rem;
+  -webkit-box-align: center;
+  position: relative;
+  right: -8px;
+  grid-area: playCount / playCount / playCount / playCount;
+}
+
+.css-7cyujr {
+  font-size: 1.4rem;
+  -webkit-box-align: center;
+  position: relative;
+  right: -8px;
+  grid-area: adCount / adCount / adCount / adCount;
+}
+
+.css-14mt7s3 {
+  font-size: 1.4rem;
+  -webkit-box-align: center;
+  position: relative;
+  right: -8px;
+  grid-area: date / date / date / date;
+}
+
+.css-vf411m {
+  font-size: 1.4rem;
+  -webkit-box-align: center;
+  position: relative;
+  right: -8px;
+  grid-area: status / status / status / status;
+}
+
+.css-3v0u6u {
+  grid-area: actions / actions / actions / actions;
+}
+
+.css-urc5lr {
+  list-style: none;
+}
+
+.css-4y2k05 {
+  grid-template-columns: 1fr 72px;
+  grid-template-areas: 'episodeLink episodeActions';
+  border-bottom: 1px solid rgb(243, 243, 244);
+  -webkit-box-align: center;
+}
+
+.css-ukn458 {
+  -webkit-box-align: center;
+  place-items: center end;
+  min-height: 96px;
+  grid-area: episodeLink / episodeLink / episodeLink / episodeLink;
+  grid-template-columns: 1fr 64px 64px 64px 96px 56px;
+  grid-template-areas: 'name duration playCount adCount date status';
+}
+
+.css-1u6wh4y {
+  grid-area: name / name / name / name;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.css-joz84f {
+  grid-area: duration / duration / duration / duration;
+}
+
+.css-s2me8g {
+  grid-area: playCount / playCount / playCount / playCount;
+}
+
+.css-5oq08x {
+  grid-area: adCount / adCount / adCount / adCount;
+}
+
+.css-1flkdfl {
+  grid-area: date / date / date / date;
+  text-align: right;
+  position: relative;
+}
+
+.css-1rqsibs {
+  font-size: 1.2rem;
+  color: rgb(95, 99, 105);
+  position: absolute;
+  width: 96px;
+  top: -16px;
+  right: 0px;
+}
+
+.css-2ee2cz {
+  grid-area: status / status / status / status;
+}
+
+.css-u8juio {
+  grid-area: episodeActions / episodeActions / episodeActions / episodeActions;
+  display: grid;
+  place-content: center;
+}
+
+.css-xu4tf8 {
+  border: 1px solid transparent;
+  display: block;
+}
