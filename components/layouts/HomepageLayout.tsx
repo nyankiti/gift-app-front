@@ -1,9 +1,9 @@
 import React from 'react'
-import headerNavLinks from '../data/headerNavLink'
+import headerNavLinks from '../../data/headerNavLink'
 /* components */
-import Link from '../components/Link'
-import MobileNav from './MobileNav'
-import Footer from './Footer'
+import Link from '../Link'
+import MobileNav from '../MobileNav'
+import Footer from '../Footer'
 
 interface LayoutProps {
   children: React.ReactNode
